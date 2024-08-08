@@ -28,6 +28,7 @@ const App = () => {
         increaseQuantity={increaseQuantity}
         decreaseQuantity={decreaseQuantity}
         clearCart={clearCart}
+        cartTotal={total}
       />
       <main className="container-xl mt-5">
         <h2 className="text-center">Nuestra Colección</h2>
@@ -38,7 +39,7 @@ const App = () => {
               key={guitar.id}
               guitar={guitar}
               addToCart={addToCart}
-              total={total}
+              
             />
           ))}
         </div>
