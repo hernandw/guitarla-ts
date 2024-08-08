@@ -10,10 +10,10 @@ Carrrito de compras con react y typescript
 
 Incluir capturas de pantalla o imágenes que muestren el proyecto en funcionamiento.
 
-![Home](screenshots/portada.png)
+![Home](./screenshots/portada.png)
 Vista inicio de la aplicación.
 
-![Carrito](screenshots/cart.png)
+![Carrito](./screenshots/cart.png)
 Vista inicio de la aplicación.
 
 ## Prerrequisitos o Dependencias
