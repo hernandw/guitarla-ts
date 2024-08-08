@@ -14,7 +14,7 @@ Incluir capturas de pantalla o imágenes que muestren el proyecto en funcionamie
 Vista inicio de la aplicación.
 
 ![Carrito](public/screenshots/cart.png)
-Vista inicio de la aplicación.
+Vista del carrito de compras
 
 ## Prerrequisitos o Dependencias
 
