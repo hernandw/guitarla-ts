@@ -10,7 +10,7 @@ const App = () => {
 
   const {
     guitar,
-    total,
+    cartTotal,
     cart,
     addToCart,
     removeFromCart,
@@ -28,7 +28,7 @@ const App = () => {
         increaseQuantity={increaseQuantity}
         decreaseQuantity={decreaseQuantity}
         clearCart={clearCart}
-        cartTotal={total}
+        cartTotal={cartTotal}
       />
       <main className="container-xl mt-5">
         <h2 className="text-center">Nuestra Colección</h2>
