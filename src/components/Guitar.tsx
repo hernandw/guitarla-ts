@@ -13,7 +13,7 @@ const Guitar = ({ guitar, addToCart }: GuitarProps)   => {
       <div className="col-4">
         <img
           className="img-fluid"
-          src={`/images/${image}.jpg`}
+          src={`./images/${image}.jpg`}
           alt="imagen guitarra"
         />
       </div>
