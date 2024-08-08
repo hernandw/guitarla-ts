@@ -1,30 +1,57 @@
-# React + TypeScript + Vite
+# Carrito de Compras con React y Typescript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Carrrito de compras con react y typescript
 
-Currently, two official plugins are available:
+## Descripción del proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+¿Estás comenzando un proyecto pequeño, un desafío de programación o un tutorial, y necesitas una forma rápida y sencilla de crear documentación básica? ¡Esta plantilla README minimalista es para ti!
 
-## Expanding the ESLint configuration
+## Capturas de Pantalla del Proyecto
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Incluir capturas de pantalla o imágenes que muestren el proyecto en funcionamiento.
 
-- Configure the top-level `parserOptions` property like this:
+![Home](screenshots/portada.png)
+Vista inicio de la aplicación.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+![Carrito](screenshots/cart.png)
+Vista inicio de la aplicación.
+
+## Prerrequisitos o Dependencias
+
+Lista de software y herramientas, incluyendo versiones, que necesitas para instalar y ejecutar este proyecto:
+
+- React
+
+## Instalación del Proyecto
+
+Una guía paso a paso sobre cómo configurar el entorno de desarrollo e instalar todas las dependencias.
+
+```bash
+# git clone git@github.com:hernandw/guitarla-ts.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+instalamos dependencias 
+
+```bash
+# npm i 
+```
+
+## Instrucciones para Ejecutar el Proyecto
+
+Instrucciones para ejecutar el proyecto una vez instalado.
+
+```bash
+# npm run dev
+```
+
+
+
+
+
+Este proyecto está bajo la Licencia MIT - ve el archivo [license.md](LICENSE) para detalles
+
+---
+
+
+
+⌨️ con ❤️ por [Williams Hernández](https://github.com/hernandw) 😊
