@@ -1,10 +1,13 @@
+import type { Guitar } from '../types';
 
+type GuitarProps = {
+  guitar: Guitar;
+  addToCart: (guitar: Guitar) => void;
+}
 
-const Guitar = ({ guitar, addToCart }) => {
-  const handleCart = () => {
-    setCart([...cart, guitar]);
-  }
-  const { id, name, description, image, price } = guitar;
+const Guitar = ({ guitar, addToCart }: GuitarProps)   => {
+  
+  const { name, description, image, price } = guitar;
   return (
     <div className="col-md-6 col-lg-4 my-4 row align-items-center">
       <div className="col-4">

@@ -1,5 +1,16 @@
-const Header = ({ cart, total, removeFromCart, increaseQuantity, decreaseQuantity, clearCart }) => {
-  const cartTotal = cart.reduce((total, item) => total + (item.price * item.quantity), 0);
+import type { CartItem, Guitar } from '../types';
+
+type HeaderProps = {
+  cart: CartItem[];
+  removeFromCart: (id: Guitar["id"]) => void;
+  increaseQuantity: (id: Guitar["id"]) => void;
+  decreaseQuantity: (id: Guitar["id"]) => void;
+  clearCart: () => void;
+  cartTotal: number;
+}
+
+const Header = ({ cart, removeFromCart, increaseQuantity, decreaseQuantity, clearCart, cartTotal }: HeaderProps) => {
+  
   return (
     <header className="py-5 header">
       <div className="container-xl">
